@@ -1,0 +1,72 @@
+:root{
+    --primary: white;
+}
+
+.btn {
+    padding:35px 150px;
+    border-radius: 2px;
+    outline: none;
+    border:none;
+    cursor:pointer;
+}
+.btn--medium{
+    padding: 8px 20px;
+    font-size: 20px;
+    
+}
+
+.btn--large{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.twitch{
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+  
+}
+
+.instagram{
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color:  var(--primary);
+    border: 1px solid pink;
+}
+
+.twitter{
+    background-color: #00acee;
+    color: var(--primary);
+    border: 1px solid #00acee;
+}
+
+.github{
+    background-color: black;
+    color: var(--primary);
+    border: 1px solid gray;
+}
+
+.youtube{
+    background-color: red;
+    color: var(--primary);
+    border: 1px solid red;
+}
+
+.btn--outline{
+    background-color: transparent;
+    color:white;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+
+
+.btn--medium:hover, .btn--large:hover{
+    background: white;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+
