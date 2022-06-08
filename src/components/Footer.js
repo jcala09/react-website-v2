@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className='footer-container'>
-      
+    <div className='footer'>
+   
       
       <section class='social-media'>
         <div class='social-media-wrap'>
@@ -15,7 +15,7 @@ function Footer() {
             JeromeHub<i className="fas fa-cloud"/> 
             </Link>
           </div>
-          <small class='website-rights'>I get no bitches lol</small>
+          
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -60,7 +60,8 @@ function Footer() {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    
   );
 }
 
